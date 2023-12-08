@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Menus*/
+.navegacion{
+    font-size: 2.5vh;
+    padding-right:5vh;
+    margin-top: 3vh;
+}
+
+.opcion{
+    color: gray;
+}
+
+.active{
+    color: white;
+}
+
+.logo{
+    padding-left:5vh;
+    margin-top: 3vh;
+}
+
+.social{
+    margin-left:5vh;
+    margin-bottom: 3vh;
+}
+
+.icon{
+    padding-left: 5vh;
+    font-size: 4vh;
+    color: gray;
+    padding-bottom: 1vh;
+}
+
+.icon:hover{
+    color: white;
+}
+
+.modo{
+    color: white;
+}
+/*Homepage*/
+#titulo{
+    font-size: 13vh;
+    padding-left: 10vh;
+    padding-top: 10vh;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+#subtitulo{
+    padding-left: 11vh;
+    color: rgb(167, 167, 167);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+#home{
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+spline-viewer {
+    position: absolute;
+}
+
+/*Work*/
+#work{
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.sec{
+    font-size: 13vh;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.works{
+    color: white;
+}
+
+.works::after,
+.works::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+}
+
+.works:hover:before{
+    background: black;
+    animation: anihover .5s ease forwards;
+}
+
+.works:hover,
+.works:active{
+    background-color: white;
+    color: black;
+}
+
+@keyframes anihover {
+    to {
+        left: 100%;
+    }
+}
+
+/*About*/
+#about{
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+form{
+    color: white;
+}
+
+.contacto{
+    color: grey;
+    font-size: 4vh;
+}
+
+@media (max-width: 992px){
+    #titulo{
+        padding-top: 17vh;
+        font-size: 7vh;
+        padding-left: 0;
+        text-align: center;
+    }
+    #subtitulo{
+        padding: 0;
+        text-align: center;
+        margin: 2vh;
+    }
+    .workrow{
+        padding-top: 17vh;
+    }
+    .sec{
+        font-size: 7vh;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+    }
+}
