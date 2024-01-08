@@ -1,68 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://goheju.github.io/proyectohtml/">
-    <id>https://goheju.github.io/proyectohtml/</id>
-    <title>Portfolio atom</title>
-    <updated>2023-12-12T10:06:00+01:00</updated>
-    <link rel="alternate" href="https://goheju.github.io/proyectohtml/atom.xml" />
-    <author>
-        <name>Andres Tenllado Perez</name>
-        <email>tepean_aliesma2324@iesmedinaazahara.es</email>
-    </author>
-    <category term="Portfolio"/>
-    <entry>
-        <title>Inicio</title>
-        <link href="https://aten3d.github.io/Portfolio/"/>
-        <id>https://aten3d.github.io/Portfolio/</id>
-        
-        <updated>2023-12-12T10:14:00+01:00</updated>
-        <author>
-            <name>Andres Tenllado Perez</name>
-            <email>tepean_aliesma2324@iesmedinaazahara.es</email>
-        </author>
-        <summary>
-            Pagina principal de la pagina con información sobre mi, trabajos y pagina de contacto
-        </summary>
-    </entry>
-    <entry>
-        <title>Blog</title>
-        <link href="https://aten3d.github.io/Portfolio/pages/blogBBDD.html"/>
-        <id>https://aten3d.github.io/Portfolio/pages/blogBBDD.html</id>
-        
-        <updated>2023-12-12T10:14:00+01:00</updated>
-        <author>
-            <name>Andres Tenllado Perez</name>
-            <email>tepean_aliesma2324@iesmedinaazahara.es</email>
-        </author>
-        <summary>
-            Blog con los ultimos trabajos de base de datos
-        </summary>
-    </entry>
-    <entry>
-        <title>Blog</title>
-        <link href="https://aten3d.github.io/Portfolio/pages/blogLM.html"/>
-        <id>https://aten3d.github.io/Portfolio/pages/blogLM.html</id>
-        
-        <updated>2023-12-12T10:14:00+01:00</updated>
-        <author>
-            <name>Andres Tenllado Perez</name>
-            <email>tepean_aliesma2324@iesmedinaazahara.es</email>
-        </author>
-        <summary>
-            Blog con los ultimos trabajos de lenguage de marcas
-        </summary>
-    </entry>
-    <entry>
-        <title>Blog</title>
-        <link href="https://aten3d.github.io/Portfolio/pages/blogAnim.html"/>
-        <id>https://aten3d.github.io/Portfolio/pages/blogAnim.html</id>
-        
-        <updated>2023-12-12T10:14:00+01:00</updated>
-        <author>
-            <name>Andres Tenllado Perez</name>
-            <email>tepean_aliesma2324@iesmedinaazahara.es</email>
-        </author>
-        <summary>
-            Blog con los ultimos trabajos de animacion 3d
-        </summary>
-    </entry>
-</feed>
+<rss version="2.0">
+    <channel>
+        <!--Prólogo-->
+        <title>Portfolio</title>
+        <link>https://aten3d.github.io/Portfolio/</link>
+        <description> Portfolio de Andres Tenllado Perez alumno de 1º ASIR </description>
+        <category>trabajo/educacion</category>
+        <copyright>1º ASIR - LMSGI</copyright>
+        <language>es-es</language>
+        <lastBuildDate>Tue, 12 Dec 2023 09:45:00 +0100</lastBuildDate>
+        <!-- Noticias del canal -->
+        <item>
+            <title>Portfolio</title>
+            <description>
+                Pagina principal de la pagina con información sobre mi, trabajos y pagina de contacto
+            </description>
+            <link>
+                https://aten3d.github.io/Portfolio/
+            </link>
+            <author>tepean_aliesma2324@iesmedinaazahara.es</author>
+            <category>Portfolio</category>
+            <pubDate>Tue, 12 Dec 2023 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Blog</title>
+            <description>
+                Blog con los ultimos trabajos de base de datos
+            </description>
+            <link>
+                https://aten3d.github.io/Portfolio/pages/blogBBDD.html
+            </link>
+            <author>tepean_aliesma2324@iesmedinaazahara.es</author>
+            <category>Blog</category>
+            <pubDate>Tue, 12 Dec 2023 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Blog</title>
+            <description>
+                Blog con los ultimos trabajos de lenguage de marcas
+            </description>
+            <link>
+                https://aten3d.github.io/Portfolio/pages/blogLM.html
+            </link>
+            <author>tepean_aliesma2324@iesmedinaazahara.es</author>
+            <category>Blog</category>
+            <pubDate>Tue, 12 Dec 2023 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Blog</title>
+            <description>
+                Blog con los ultimos trabajos de animacion 3d
+            </description>
+            <link>
+                https://aten3d.github.io/Portfolio/pages/blogAnim.html
+            </link>
+            <author>tepean_aliesma2324@iesmedinaazahara.es</author>
+            <category>Blog</category>
+            <pubDate>Tue, 12 Dec 2023 10:00:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>
